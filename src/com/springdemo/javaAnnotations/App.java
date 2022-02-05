@@ -11,10 +11,14 @@ public class App {
 
 		Coach TCoach = context.getBean("tennisCoach", Coach.class);
 		Coach PCoach = context.getBean("programmingCoach", Coach.class);
+//		TestCoach testCoach = context.getBean("testCoach", TestCoach.class);
 
 		System.out.println(TCoach.getDailyWorkout());
 		System.out.println(TCoach.getDailyFortune());
 		System.out.println(PCoach.getDailyWorkout());
+		System.out.println(PCoach.getDailyFortune());
+
+//		testCoach.check();
 
 		context.close();
 
