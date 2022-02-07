@@ -22,7 +22,7 @@ public class TennisCoach implements Coach {
 	}
 
 	@Autowired
-	@Qualifier("happyFortuneService")
+	@Qualifier("fileFortuneService")
 	private FortuneService myFortuneService;
 
 //	@Autowired
